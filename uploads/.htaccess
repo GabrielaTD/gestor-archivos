@@ -1,0 +1,14 @@
+# ==========================
+# PROTECCIÓN CARPETA UPLOADS
+# ==========================
+
+# Evita ejecución de PHP
+php_flag engine off
+
+# Evita listar archivos
+Options -Indexes
+
+# Bloquear scripts peligrosos
+<FilesMatch "\.(php|php5|phtml|phar)$">
+Deny from all
+</FilesMatch>

@@ -1,0 +1,103 @@
+
+body{
+    background:#f4efff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================
+   HEADER Y FOOTER
+========================= */
+
+header{
+    background:#6f42c1 !important;
+}
+
+footer{
+    background:#6f42c1 !important;
+    margin-top:40px;
+}
+
+/* =========================
+   FOTO PERFIL
+========================= */
+
+.foto-perfil{
+    width:170px;
+    height:170px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid white;
+    box-shadow:0px 0px 12px rgba(0,0,0,.25);
+}
+
+/* =========================
+   TARJETAS
+========================= */
+
+.card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0px 2px 10px rgba(0,0,0,0.08);
+}
+
+/* =========================
+   TITULOS
+========================= */
+
+h1, h2, h3, h4, h5{
+    font-weight:bold;
+}
+
+/* =========================
+   BOTONES PRINCIPALES
+========================= */
+
+.btn-primary{
+    background:#6f42c1;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#5b34a3;
+}
+
+/* Botón eliminar */
+.btn-danger{
+    border-radius:8px;
+}
+
+/* Botón descargar */
+.btn-success{
+    border-radius:8px;
+}
+
+/* =========================
+   TABLA
+========================= */
+
+.table th{
+    background:#6f42c1 !important;
+    color:white;
+    text-align:center;
+}
+
+.table td{
+    vertical-align: middle;
+}
+
+/* =========================
+   ALERTAS
+========================= */
+
+.alert-info{
+    border-radius:10px;
+    font-size:14px;
+}
+
+/* =========================
+   EFECTO GENERAL
+========================= */
+
+.container{
+    max-width:1100px;
+}
