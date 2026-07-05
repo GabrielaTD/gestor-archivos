@@ -22,4 +22,4 @@ CREATE TABLE usuarios (
 
 -- Usuario de prueba
 INSERT INTO usuarios (usuario, password)
-VALUES ('admin', '12345');
+VALUES ('Gabriela', 'GabrielaUTPL');
