@@ -1,10 +1,11 @@
 # Biblioteca Digital Personal
 
-## Autor
+# Autor
+
 Evelyn Gabriela Tarapues Dávila  
 Ingeniería en Tecnologías de la Información
 
-## Descripción del sistema
+# Descripción del sistema
 
 Este proyecto es una aplicación web desarrollada en PHP que permite la gestión de archivos mediante Programación Orientada a Objetos.
 
@@ -12,7 +13,7 @@ El sistema permite subir archivos, asignarles un título, visualizarlos en una t
 
 Los archivos se almacenan en el servidor y se registran en una base de datos MySQL.
 
-## Instrucciones de uso
+# Instrucciones de uso
 
 Para ejecutar el proyecto se deben seguir los siguientes pasos:
 
@@ -22,7 +23,7 @@ Para ejecutar el proyecto se deben seguir los siguientes pasos:
 - Acceder desde el navegador a http://localhost/gestor-archivos
 - Iniciar sesión con usuario Gabriela y contraseña GabrielaUTPL
 
-## Clase utilizada
+# Clase utilizada
 
 El sistema utiliza la clase GestorArchivos, la cual centraliza toda la lógica del sistema.
 
@@ -36,7 +37,7 @@ Sus métodos principales son:
 
 La clase aplica Programación Orientada a Objetos mediante encapsulamiento, uso de constructor y separación de responsabilidades.
 
-## Medidas de seguridad aplicadas
+# Medidas de seguridad aplicadas
 
 El sistema implementa varias medidas de seguridad para proteger el manejo de archivos:
 
@@ -48,8 +49,12 @@ El sistema implementa varias medidas de seguridad para proteger el manejo de arc
 - Uso de consultas preparadas para prevenir SQL Injection
 - Protección de la carpeta uploads para evitar ejecución de archivos
 - Control de acceso mediante sesiones de usuario
+# Credenciales para ingreso a Biblioteca Digital
 
-## Tecnologías utilizadas
+ Usuario: Gabriela 
+ Contraseña: GabrielaUTPL
+ 
+# Tecnologías utilizadas
 
 PHP, MySQL, HTML5, CSS3, Bootstrap 5, Apache
 
